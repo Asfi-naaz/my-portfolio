@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devloper portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+         *{
+            margin:0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(0,0,33);
+            color: white;
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height:80px;
+            background-color: rgb(18,18,62);
+            
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(153, 153, 240);
+            font-size: 1.05rem;
+        }
+        main hr{
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+        .firstSection >div{
+            width: 30%;
+        }
+        .leftSection .buttons{
+            padding: 50px 0;
+        }
+
+        .leftSection{
+             font-size: 3rem;
+         }
+         .leftSection .btn{
+            padding: 12px;
+            color: white;
+            background: #1e2167;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+
+            
+         }
+        .rightSection img{
+            width:80%;
+            
+        }
+        .purple{
+            color: rgb(175, 108, 237);
+        }
+        .text-gray{
+            color: gray;
+        }
+        #element{
+            color: rgb(175, 108, 237);
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .secondSection h1{
+            font-size: 1.9rem;
+        }
+        .secondSection .box{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+        .image-top{
+            width: 35px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .image-up{
+            width: 30px;
+            position: relative;
+            top: -45px;
+            left: -9px;
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+        footer{
+            background-color: #0e0e1a;
+            
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+        .thirdSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        
+
+        .thirdSection h2{
+            font-size: 1.9rem;
+        }
+        .aboutsection{
+             font-size: 2rem;
+             margin: 0 120px;
+         }
+         .fourthSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+         .fourthSection h3{
+            font-size: 2rem;
+         }
+         .main2{
+             transform: translate(-1060%,-1060%);
+             color:rgb(103, 103, 245);
+            
+        }
+        .out{
+            width: 100px;
+            height: 10px;
+            background-color: white;
+            border-radius: 20px;
+            
+        }
+        .in{
+            
+            height: 10px;
+            width: 75%;
+            background-color:rgb(103, 103, 245);
+;
+            border-radius: 20px;
+        }
+        .main3{
+             transform: translate(-900%,-900%);
+             color:rgb(103, 103, 245);
+        }
+        .out2{
+            
+            width: 100px;
+            height: 10px;
+            background-color: white;
+            border-radius: 20px;
+
+        }
+        .in2{
+            height: 10px;
+            width: 65%;
+            background-color: green;
+            border-radius: 20px;
+        }
+
+
+        
+
+        
+      </style>
+</head>
+<body>
+<header>
+    <nav>
+        <div class="left">Asfi's Portfolio</div>
+        <div class="right">
+            <ul>
+                <li> <a href="/">Home</a</li>
+                <li> <a href="/">About</a></li>
+                <li> <a href="/">Services</a></li>
+                <li> <a href="/">Projects</a></li>
+                <li> <a href="/">Contact Me</a></li>
+        </div>
+    </nav>
+</header>
+<main>
+    <section class="firstSection">
+        <div class="leftSection">
+            Hi,My name is <span class="purple">Asfi</span>
+                
+            <div>and I am a Web passionate</div>
+            <div>Web Developer</div>
+            <span id="element"></span>
+            <div class="buttons">
+                <button class="btn">Download Resume</button>
+                <button class="btn">Contact Me</button>
+            </div>
+
+        </div>
+        <div class="rightSection">
+            <img src="become-a-web-developer.png"alt="">
+        </div>
+
+    </section>
+    <hr>
+    <section class="secondSection">
+        <span class="text-gray">what I have so far</span>
+        <h1>Experience/Skill</h1>
+
+        <div class="box">
+            <div class="vertical">
+                <img class="image-top" src="web-developer-4506461-3738664.png" alt="">
+                <div class="vertical-title">
+                    HTML Developer (80%)
+                </div>
+                <div class="vertical-desc">
+                    UI designing & Web Devlopment created the layout/user interface for 70% websites
+                    via standard HTML/CSS practices Maintained & updated 15+ HTML/CSS templates on
+                    a weekly basis collaborated with the back-end Web Developer team of 35 to 27+ new
+                    websites and updated 50+ ones. 
+                </div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="png-transparent-responsive-web-d-removebg-preview.png" alt="">
+                <div class="vertical-title">
+                    css Developer(70%)
+                </div>
+                <div class="vertical-desc">
+                    Designed amd implemented a website for a large online retailer,resulting
+                    in a 300% increases in sales. Development and maintained web applications for 
+                    a variety of clients across different industries.
+
+                </div>
+            </div>
+            <div class="vertical">
+                <img class="image-up" src="JavaScript-logo.png" alt="">
+                <div class="vertical-title">
+                    javascript Developer (60%)
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed odit consectetur inventore 
+                    perspiciatis eos iste reprehenderit, culpa ipsam cupiditate ut veniam beatae optio esse laborum 
+                    sequi tempore ab adipisci corporis!
+                </div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="elephpant-mascot-php-logo-4C78D1.png" alt="">
+                <div class="vertical-title">
+                    php Developer (50%)
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed odit consectetur inventore 
+                    perspiciatis eos iste reprehenderit, culpa ipsam cupiditate ut veniam beatae optio esse laborum 
+                    sequi tempore ab adipisci corporis!
+                </div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="mysql8604.logowik.com-removebg-preview.png" alt="">
+                <div class="vertical-title">
+                    mysql Developer (50%)
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed odit consectetur inventore 
+                    perspiciatis eos iste reprehenderit, culpa ipsam cupiditate ut veniam beatae optio esse laborum 
+                    sequi tempore ab adipisci corporis!
+                </div>
+            </div>
+
+            <div class="main2">
+                <a>html</a>
+                <a>80%</a>
+            <div class="out">
+                    <div class="in"></div>
+
+                    <div class="main3">
+                        <a>css</a>
+                        <a>60%</a>
+                    <div class="out2">
+                            <div class="in2"></div>
+            
+                
+
+
+            </div>
+    </section>
+    <hr>
+    <section class="thirdSection">
+        <h2>ABOUT ME</h2>
+        <span class="text-gray">INFORMATION ABOUT ME</span>
+        <div class="aboutsection">
+        
+        <div>Hello,I'm <span class="purple">Asfi Naaz</span> and I work</div>
+        <div>as a Full stack  Web Developer.</div>
+        <div>I have been working as a Full</div>
+        <div>Stack Web Developer for 6 Months</div>
+        <div>in SOLUTION.COM. I beleive I</div>
+        <div>am a very ambitious person who</div>
+        <div>loves to work on making the </div>
+        <div>website work well</div>
+        </div>
+
+    </section>
+    <hr>
+    <section class="fourthSection">
+        <h3>CONTACT ME HERE</h3>
+        <div>Location</div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer">
+        <div class="footer-first">
+            <h3>Asfi's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Services</li>
+            </ul>
+        </div>
+        <div class="footer-third">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Services</li>
+            </ul>
+        </div>
+        <div class="footer-fourth">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Services</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-rights">
+        Copyright &#169; www.Asfiportfolio.com | All rights reserved
+    </div>
+</footer>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Graphic Designer','Web Designer','video Editor'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+    
+</html>
